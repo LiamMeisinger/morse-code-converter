@@ -1,11 +1,39 @@
-Writing down some thoughts I have to be able to formulate a plan.
+Liam Meisinger's Morse Code Converter
+Description
+This is a command-line program that converts any text into Morse code and vice versa. Inspired by the fun of creating 
+something for “secret spy missions,” it encodes and decodes messages for easy practice with encoding concepts in Python.
 
-1. Need an input from the user
-    - Should be able to recieve morse and text
-2. Set some parameters to adhere to:
-    - American Morse
-    - No punctuation
-3. Set up a dictionary to pull from to create the morse code symbols. ANd to convert morse to text
-4. Push back the morse code.
-5. Explore some further thoughts on how to use the morse code for future projects to actually make this code useful.
-6. Add some ASCII art for fun
+Motivation
+I created this project to strengthen my Python skills and to showcase a simple yet functional project on GitHub. 
+It’s a beginner-friendly application demonstrating text encoding and decoding, which can also be a handy tool for 
+anyone curious about Morse code.
+
+Features
+Encode Text to Morse Code: Converts regular text into Morse code.
+Decode Morse Code to Text: Converts Morse code back to readable text.
+Handles Unknown Characters: Ignores or skips characters that don’t have a Morse equivalent.
+
+Installation
+Clone the repository:
+    
+Ensure Python is installed. This project was developed with Python 3.x.
+
+Install any dependencies (if applicable). Currently, no external libraries are required.
+
+Usage
+To run the program, open a terminal and navigate to the project directory. Then, run:
+    python morse_converter.py
+
+Example:
+
+Encoding:
+Input: HELLO WORLD
+Output: .... . .-.. .-.. --- .-- --- .-. .-.. -..
+Decoding:
+Input: .... . .-.. .-.. ---
+Output: HELLO
+Simply enter E to encode or D to decode, following the prompts. To exit, type T.
+
+Future Improvements
+Adding a web interface for easier usage.
+Adding file input/output for bulk encoding or decoding.
