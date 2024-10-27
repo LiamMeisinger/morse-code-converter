@@ -36,4 +36,5 @@ Simply enter E to encode or D to decode, following the prompts. To exit, type T.
 
 Future Improvements
 Adding a web interface for easier usage.
+Adding some sounds for the morse code output.
 Adding file input/output for bulk encoding or decoding.
